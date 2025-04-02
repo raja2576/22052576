@@ -1,12 +1,23 @@
 package com.question2.question2.Modal;
 
+import java.util.Date;
+
 public class Post {
     private int id;
     private int userId;
     private String content;
     private int commentCount;
+    private Date date;
 
-    // Default constructor
+    public Date getDate() {
+		return date;
+	}
+
+	public void setDate(Date date) {
+		this.date = date;
+	}
+
+	// Default constructor
     public Post() {}
 
     // Parameterized constructor

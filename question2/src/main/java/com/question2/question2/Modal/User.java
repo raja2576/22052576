@@ -1,9 +1,9 @@
 package com.question2.question2.Modal;
 
 public class User {
-    private int id;
+    public int id;
     private String name;
-    private int postCount;
+    public int postCount;
 
     // Default constructor
     public User() {}
